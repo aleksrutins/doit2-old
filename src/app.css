@@ -1,0 +1,8 @@
+.day-label {
+  border-radius: 5px;
+  background-color: gray;
+  color: white;
+}
+.day-label.doitnow {
+  background-color: red;
+}

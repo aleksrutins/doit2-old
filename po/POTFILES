@@ -1,0 +1,7 @@
+data/com.munchkinhalfling.DoIt2.desktop.in
+data/com.munchkinhalfling.DoIt2.appdata.xml.in
+data/com.munchkinhalfling.DoIt2.gschema.xml
+src/window.ui
+src/main.vala
+src/window.vala
+

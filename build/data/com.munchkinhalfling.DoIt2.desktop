@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=doit2
+Exec=doit2
+Terminal=false
+Type=Application
+Categories=GTK;
+StartupNotify=true

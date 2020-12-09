@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/com/munchkinhalfling/DoIt2">
+    <file>window.ui</file>
+    <file>app.css</file>
+    <file>tododisplay.ui</file>
+    <file>addtododialog.ui</file>
+  </gresource>
+</gresources>

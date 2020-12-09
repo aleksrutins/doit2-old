@@ -1,0 +1,68 @@
+[
+  {
+    "directory": "/home/aleks/Projects/doit2/build",
+    "command": "valac -C --debug --debug --vapidir=/usr/share/vala-0.50/vapi --pkg gee-0.8 --pkg glib-2.0 --color=always --directory src/libassert/liblibassert.a.p --basedir ../src/libassert --library libassert --header src/libassert/libassert.h --vapi ../libassert.vapi ../src/libassert/libassert.vala",
+    "file": "../src/libassert/libassert.vala",
+    "output": "src/libassert/liblibassert.a.p/libassert.c"
+  },
+  {
+    "directory": "/home/aleks/Projects/doit2/build",
+    "command": "cc -Isrc/libassert/liblibassert.a.p -Isrc/libassert -I../src/libassert -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/gee-0.8 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -g -fPIC -MD -MQ src/libassert/liblibassert.a.p/meson-generated_libassert.c.o -MF src/libassert/liblibassert.a.p/meson-generated_libassert.c.o.d -o src/libassert/liblibassert.a.p/meson-generated_libassert.c.o -c src/libassert/liblibassert.a.p/libassert.c",
+    "file": "src/libassert/liblibassert.a.p/libassert.c",
+    "output": "src/libassert/liblibassert.a.p/meson-generated_libassert.c.o"
+  },
+  {
+    "directory": "/home/aleks/Projects/doit2/build",
+    "command": "valac -C --debug --debug --vapidir=/usr/share/vala-0.50/vapi --pkg json-glib-1.0 --pkg gee-0.8 --pkg gtk+-3.0 --pkg gio-2.0 --color=always --directory src/doit2.p --basedir ../src --gresources=../src/doit2.gresource.xml --target-glib=2.50 ../src/main.vala ../src/window.vala ../src/util.vala ../src/tododisplay.vala ../src/daylabel.vala ../src/addtododialog.vala ../src/tests.vala src/libassert/libassert.vapi",
+    "file": "../src/main.vala",
+    "output": "src/doit2.p/main.c"
+  },
+  {
+    "directory": "/home/aleks/Projects/doit2/build",
+    "command": "cc -Isrc/doit2.p -Isrc -I../src -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/fribidi -I/usr/include/uuid -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/libpng16 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gio-unix-2.0 -I/usr/include/wayland -I/usr/include/libxkbcommon -I/usr/include/atk-1.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/dbus-1.0 -I/usr/lib64/dbus-1.0/include -I/usr/include/at-spi-2.0 -I/usr/include/gee-0.8 -I/usr/include/json-glib-1.0 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -g -pthread -MD -MQ src/doit2.p/meson-generated_.._doit2-resources.c.o -MF src/doit2.p/meson-generated_.._doit2-resources.c.o.d -o src/doit2.p/meson-generated_.._doit2-resources.c.o -c src/doit2-resources.c",
+    "file": "src/doit2-resources.c",
+    "output": "src/doit2.p/meson-generated_.._doit2-resources.c.o"
+  },
+  {
+    "directory": "/home/aleks/Projects/doit2/build",
+    "command": "cc -Isrc/doit2.p -Isrc -I../src -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/fribidi -I/usr/include/uuid -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/libpng16 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gio-unix-2.0 -I/usr/include/wayland -I/usr/include/libxkbcommon -I/usr/include/atk-1.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/dbus-1.0 -I/usr/lib64/dbus-1.0/include -I/usr/include/at-spi-2.0 -I/usr/include/gee-0.8 -I/usr/include/json-glib-1.0 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -g -pthread -MD -MQ src/doit2.p/meson-generated_main.c.o -MF src/doit2.p/meson-generated_main.c.o.d -o src/doit2.p/meson-generated_main.c.o -c src/doit2.p/main.c",
+    "file": "src/doit2.p/main.c",
+    "output": "src/doit2.p/meson-generated_main.c.o"
+  },
+  {
+    "directory": "/home/aleks/Projects/doit2/build",
+    "command": "cc -Isrc/doit2.p -Isrc -I../src -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/fribidi -I/usr/include/uuid -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/libpng16 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gio-unix-2.0 -I/usr/include/wayland -I/usr/include/libxkbcommon -I/usr/include/atk-1.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/dbus-1.0 -I/usr/lib64/dbus-1.0/include -I/usr/include/at-spi-2.0 -I/usr/include/gee-0.8 -I/usr/include/json-glib-1.0 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -g -pthread -MD -MQ src/doit2.p/meson-generated_window.c.o -MF src/doit2.p/meson-generated_window.c.o.d -o src/doit2.p/meson-generated_window.c.o -c src/doit2.p/window.c",
+    "file": "src/doit2.p/window.c",
+    "output": "src/doit2.p/meson-generated_window.c.o"
+  },
+  {
+    "directory": "/home/aleks/Projects/doit2/build",
+    "command": "cc -Isrc/doit2.p -Isrc -I../src -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/fribidi -I/usr/include/uuid -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/libpng16 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gio-unix-2.0 -I/usr/include/wayland -I/usr/include/libxkbcommon -I/usr/include/atk-1.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/dbus-1.0 -I/usr/lib64/dbus-1.0/include -I/usr/include/at-spi-2.0 -I/usr/include/gee-0.8 -I/usr/include/json-glib-1.0 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -g -pthread -MD -MQ src/doit2.p/meson-generated_util.c.o -MF src/doit2.p/meson-generated_util.c.o.d -o src/doit2.p/meson-generated_util.c.o -c src/doit2.p/util.c",
+    "file": "src/doit2.p/util.c",
+    "output": "src/doit2.p/meson-generated_util.c.o"
+  },
+  {
+    "directory": "/home/aleks/Projects/doit2/build",
+    "command": "cc -Isrc/doit2.p -Isrc -I../src -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/fribidi -I/usr/include/uuid -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/libpng16 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gio-unix-2.0 -I/usr/include/wayland -I/usr/include/libxkbcommon -I/usr/include/atk-1.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/dbus-1.0 -I/usr/lib64/dbus-1.0/include -I/usr/include/at-spi-2.0 -I/usr/include/gee-0.8 -I/usr/include/json-glib-1.0 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -g -pthread -MD -MQ src/doit2.p/meson-generated_tododisplay.c.o -MF src/doit2.p/meson-generated_tododisplay.c.o.d -o src/doit2.p/meson-generated_tododisplay.c.o -c src/doit2.p/tododisplay.c",
+    "file": "src/doit2.p/tododisplay.c",
+    "output": "src/doit2.p/meson-generated_tododisplay.c.o"
+  },
+  {
+    "directory": "/home/aleks/Projects/doit2/build",
+    "command": "cc -Isrc/doit2.p -Isrc -I../src -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/fribidi -I/usr/include/uuid -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/libpng16 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gio-unix-2.0 -I/usr/include/wayland -I/usr/include/libxkbcommon -I/usr/include/atk-1.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/dbus-1.0 -I/usr/lib64/dbus-1.0/include -I/usr/include/at-spi-2.0 -I/usr/include/gee-0.8 -I/usr/include/json-glib-1.0 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -g -pthread -MD -MQ src/doit2.p/meson-generated_daylabel.c.o -MF src/doit2.p/meson-generated_daylabel.c.o.d -o src/doit2.p/meson-generated_daylabel.c.o -c src/doit2.p/daylabel.c",
+    "file": "src/doit2.p/daylabel.c",
+    "output": "src/doit2.p/meson-generated_daylabel.c.o"
+  },
+  {
+    "directory": "/home/aleks/Projects/doit2/build",
+    "command": "cc -Isrc/doit2.p -Isrc -I../src -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/fribidi -I/usr/include/uuid -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/libpng16 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gio-unix-2.0 -I/usr/include/wayland -I/usr/include/libxkbcommon -I/usr/include/atk-1.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/dbus-1.0 -I/usr/lib64/dbus-1.0/include -I/usr/include/at-spi-2.0 -I/usr/include/gee-0.8 -I/usr/include/json-glib-1.0 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -g -pthread -MD -MQ src/doit2.p/meson-generated_addtododialog.c.o -MF src/doit2.p/meson-generated_addtododialog.c.o.d -o src/doit2.p/meson-generated_addtododialog.c.o -c src/doit2.p/addtododialog.c",
+    "file": "src/doit2.p/addtododialog.c",
+    "output": "src/doit2.p/meson-generated_addtododialog.c.o"
+  },
+  {
+    "directory": "/home/aleks/Projects/doit2/build",
+    "command": "cc -Isrc/doit2.p -Isrc -I../src -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/fribidi -I/usr/include/uuid -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/libpng16 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gio-unix-2.0 -I/usr/include/wayland -I/usr/include/libxkbcommon -I/usr/include/atk-1.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/dbus-1.0 -I/usr/lib64/dbus-1.0/include -I/usr/include/at-spi-2.0 -I/usr/include/gee-0.8 -I/usr/include/json-glib-1.0 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -g -pthread -MD -MQ src/doit2.p/meson-generated_tests.c.o -MF src/doit2.p/meson-generated_tests.c.o.d -o src/doit2.p/meson-generated_tests.c.o -c src/doit2.p/tests.c",
+    "file": "src/doit2.p/tests.c",
+    "output": "src/doit2.p/meson-generated_tests.c.o"
+  }
+]

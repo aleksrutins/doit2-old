@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="doit2">
+	<schema id="com.munchkinhalfling.DoIt2" path="/com/munchkinhalfling/DoIt2/">
+	</schema>
+</schemalist>

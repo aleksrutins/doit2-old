@@ -1,0 +1,1 @@
+libassert = ['libassert/libassert.vala']
